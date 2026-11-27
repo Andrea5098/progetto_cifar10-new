@@ -32,11 +32,11 @@
         "enabled": true,
         "save_best_only": true,
         "save_weights_only": false,
-        "filepath": "c:\\Users\\Msi\\Desktop\\machine-learing\\progetto_cifar10-new\\models\\mlp_baseline_best.keras"
+        "filepath": "c:\\Users\\Msi\\Desktop\\sessione invernale\\machine-learing\\progetto_cifar10-new\\models\\mlp_baseline_best.keras"
     },
     "csv_logger": {
         "enabled": true,
-        "filepath": "c:\\Users\\Msi\\Desktop\\machine-learing\\progetto_cifar10-new\\results\\logs\\mlp_baseline_seed42\\mlp_baseline_training_log.csv"
+        "filepath": "c:\\Users\\Msi\\Desktop\\sessione invernale\\machine-learing\\progetto_cifar10-new\\results\\logs\\mlp_baseline_seed42\\mlp_baseline_training_log.csv"
     },
     "epoch_time_logger": {
         "enabled": true
@@ -51,5 +51,5 @@
     "training_started": true,
     "training_completed": true,
     "epochs_completed": 50,
-    "best_epoch": 47
+    "best_epoch": 42
 }
