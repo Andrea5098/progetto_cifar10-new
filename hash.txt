@@ -1,0 +1,5 @@
+Hash indici training:
+b99301bfd9655f1c490146bd48208bad11da518bafdd011d750ced3414b95dcb
+
+Hash indici validation:
+280540fcdfde8a413eee40aec0bc950f1fde09954d77df5546a1e4138057becf

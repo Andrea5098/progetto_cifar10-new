@@ -1,0 +1,5 @@
+baseline,accuracy,accuracy_percentage
+Casuale teorica,0.1,10.0
+Casuale simulata,0.0989,9.89
+Stratificata simulata,0.1032,10.32
+Classe maggioritaria,0.1,10.0

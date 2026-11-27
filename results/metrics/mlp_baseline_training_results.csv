@@ -1,0 +1,12 @@
+metric,value
+Epoche completate,50.0
+Migliore epoca per val_loss,47.0
+Training loss alla migliore epoca,1.5817558765411377
+Validation loss minima,1.6004356145858765
+Training accuracy alla migliore epoca,0.428933322429657
+Validation accuracy alla migliore epoca,0.44699999690055847
+Validation accuracy massima,0.45080000162124634
+Generalization gap accuracy,-0.01806667447090149
+"Tempo totale, secondi",333.19491609999386
+"Tempo medio per epoca, secondi",6.661428453999106
+Numero parametri,1707274.0

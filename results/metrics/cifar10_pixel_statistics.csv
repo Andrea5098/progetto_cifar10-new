@@ -1,0 +1,2 @@
+number_of_images,height,width,channels,dtype,minimum_pixel,maximum_pixel,mean_pixel,standard_deviation_pixel
+50000,32,32,3,uint8,0,255,120.70756512369792,64.15007589112122

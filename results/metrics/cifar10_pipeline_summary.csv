@@ -1,0 +1,4 @@
+dataset,number_of_examples,number_of_batches,batch_size,normalized,shuffle,augmentation,purpose
+Training,45000,704,64,True,True,False,Aggiornamento dei pesi
+Validation,5000,79,64,True,False,False,Scelta degli iperparametri
+Test,10000,157,64,True,False,False,Valutazione finale

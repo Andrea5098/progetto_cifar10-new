@@ -1,0 +1,30 @@
+{
+    "framework": "TensorFlow",
+    "api": "tf.keras",
+    "seed": 42,
+    "image_shape": [
+        32,
+        32,
+        3
+    ],
+    "number_of_classes": 10,
+    "input_dtype_original": "uint8",
+    "pipeline_image_dtype": "float32",
+    "pipeline_label_dtype": "int64",
+    "normalization": "divide_by_255",
+    "normalized_minimum": 0.0,
+    "normalized_maximum": 1.0,
+    "batch_size": 64,
+    "shuffle_buffer_size": 45000,
+    "reshuffle_each_iteration": true,
+    "training_size": 45000,
+    "validation_size": 5000,
+    "test_size": 10000,
+    "training_batches": 704,
+    "validation_batches": 79,
+    "test_batches": 157,
+    "cache_enabled": true,
+    "prefetch": "AUTOTUNE",
+    "augmentation_enabled": false,
+    "test_used_for_tuning": false
+}

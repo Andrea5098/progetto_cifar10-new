@@ -1,0 +1,51 @@
+{
+    "dataset": "CIFAR-10",
+    "seed": 42,
+    "official_training_size": 50000,
+    "internal_training_size": 45000,
+    "validation_size": 5000,
+    "official_test_size": 10000,
+    "internal_training_percentage": 90.0,
+    "validation_percentage": 10.0,
+    "stratified_split": true,
+    "training_validation_overlap": 0,
+    "training_examples_per_class": [
+        4500,
+        4500,
+        4500,
+        4500,
+        4500,
+        4500,
+        4500,
+        4500,
+        4500,
+        4500
+    ],
+    "validation_examples_per_class": [
+        500,
+        500,
+        500,
+        500,
+        500,
+        500,
+        500,
+        500,
+        500,
+        500
+    ],
+    "test_examples_per_class": [
+        1000,
+        1000,
+        1000,
+        1000,
+        1000,
+        1000,
+        1000,
+        1000,
+        1000,
+        1000
+    ],
+    "training_indices_hash": "b99301bfd9655f1c490146bd48208bad11da518bafdd011d750ced3414b95dcb",
+    "validation_indices_hash": "280540fcdfde8a413eee40aec0bc950f1fde09954d77df5546a1e4138057becf",
+    "test_used_for_tuning": false
+}

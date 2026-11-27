@@ -1,0 +1,17 @@
+{
+    "enabled_for_mlp_baseline": false,
+    "enabled_for_cnn_baseline": false,
+    "enabled_for_improved_cnn": true,
+    "random_horizontal_flip": true,
+    "random_vertical_flip": false,
+    "height_translation_factor": 0.1,
+    "width_translation_factor": 0.1,
+    "rotation_factor": 0.05,
+    "approximate_maximum_rotation_degrees": 18.0,
+    "fill_mode": "reflect",
+    "applied_to_training": true,
+    "applied_to_validation": false,
+    "applied_to_test": false,
+    "implemented_inside_model": true,
+    "seed": 42
+}

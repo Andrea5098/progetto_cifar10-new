@@ -1,0 +1,7 @@
+layer,output_dimension,parameters,trainable
+Flatten,3072,0,False
+Dense 512,512,1573376,True
+Dropout 0.30,512,0,False
+Dense 256,256,131328,True
+Dropout 0.30,256,0,False
+Dense 10 Softmax,10,2570,True

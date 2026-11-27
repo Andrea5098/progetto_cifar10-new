@@ -1,0 +1,7 @@
+control,count
+Duplicati nel training,0
+Duplicati nel test,0
+Duplicati tra training e test,0
+Conflitti di etichetta nel training,0
+Conflitti di etichetta nel test,0
+Conflitti globali di etichetta,0

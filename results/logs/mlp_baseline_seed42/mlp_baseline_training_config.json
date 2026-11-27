@@ -1,0 +1,55 @@
+{
+    "experiment_name": "mlp_baseline_seed42",
+    "model_name": "mlp_baseline",
+    "framework": "TensorFlow",
+    "api": "tf.keras",
+    "seed": 42,
+    "optimizer": {
+        "name": "Adam",
+        "initial_learning_rate": 0.001
+    },
+    "loss": "SparseCategoricalCrossentropy",
+    "metrics": [
+        "SparseCategoricalAccuracy"
+    ],
+    "batch_size": 64,
+    "maximum_epochs": 50,
+    "monitor": "val_loss",
+    "early_stopping": {
+        "enabled": true,
+        "patience": 8,
+        "mode": "min",
+        "restore_best_weights": true
+    },
+    "reduce_lr_on_plateau": {
+        "enabled": true,
+        "patience": 3,
+        "factor": 0.5,
+        "minimum_learning_rate": 1e-06,
+        "mode": "min"
+    },
+    "model_checkpoint": {
+        "enabled": true,
+        "save_best_only": true,
+        "save_weights_only": false,
+        "filepath": "c:\\Users\\Msi\\Desktop\\machine-learing\\progetto_cifar10-new\\models\\mlp_baseline_best.keras"
+    },
+    "csv_logger": {
+        "enabled": true,
+        "filepath": "c:\\Users\\Msi\\Desktop\\machine-learing\\progetto_cifar10-new\\results\\logs\\mlp_baseline_seed42\\mlp_baseline_training_log.csv"
+    },
+    "epoch_time_logger": {
+        "enabled": true
+    },
+    "training_examples": 45000,
+    "validation_examples": 5000,
+    "training_batches_per_epoch": 704,
+    "validation_batches": 79,
+    "data_augmentation": false,
+    "test_set_used": false,
+    "compiled": true,
+    "training_started": true,
+    "training_completed": true,
+    "epochs_completed": 50,
+    "best_epoch": 47
+}

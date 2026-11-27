@@ -1,0 +1,43 @@
+{
+    "experiment_name": "mlp_baseline",
+    "experiment_phase": "Fase 3 - Blocco A",
+    "framework": "TensorFlow",
+    "api": "tf.keras",
+    "seed": 42,
+    "input_shape": [
+        32,
+        32,
+        3
+    ],
+    "flattened_input_size": 3072,
+    "number_of_classes": 10,
+    "hidden_layers": [
+        {
+            "units": 512,
+            "activation": "relu",
+            "kernel_initializer": "he_normal",
+            "dropout_rate": 0.3
+        },
+        {
+            "units": 256,
+            "activation": "relu",
+            "kernel_initializer": "he_normal",
+            "dropout_rate": 0.3
+        }
+    ],
+    "output_layer": {
+        "units": 10,
+        "activation": "softmax"
+    },
+    "total_parameters": 1707274,
+    "trainable_parameters": 1707274,
+    "non_trainable_parameters": 0,
+    "first_dense_parameters": 1573376,
+    "second_dense_parameters": 131328,
+    "output_parameters": 2570,
+    "batch_size": 64,
+    "data_augmentation": false,
+    "compiled": false,
+    "trained": false,
+    "test_set_used": false
+}

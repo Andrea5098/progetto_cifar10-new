@@ -1,0 +1,60 @@
+{
+    "dataset": "CIFAR-10",
+    "seed": 42,
+    "training_images": 50000,
+    "test_images": 10000,
+    "image_shape": [
+        32,
+        32,
+        3
+    ],
+    "number_of_classes": 10,
+    "balanced_training": true,
+    "balanced_test": true,
+    "training_examples_per_class": [
+        5000,
+        5000,
+        5000,
+        5000,
+        5000,
+        5000,
+        5000,
+        5000,
+        5000,
+        5000
+    ],
+    "test_examples_per_class": [
+        1000,
+        1000,
+        1000,
+        1000,
+        1000,
+        1000,
+        1000,
+        1000,
+        1000,
+        1000
+    ],
+    "pixel_minimum": 0,
+    "pixel_maximum": 255,
+    "rgb_means_normalized": [
+        0.49140089750289917,
+        0.48215895891189575,
+        0.4465307891368866
+    ],
+    "rgb_standard_deviations_normalized": [
+        0.2470327913761139,
+        0.243484228849411,
+        0.261587530374527
+    ],
+    "constant_images": 0,
+    "low_variance_images": 0,
+    "low_variance_threshold": 5.0,
+    "training_duplicate_copies": 0,
+    "test_duplicate_copies": 0,
+    "cross_split_duplicates": 0,
+    "global_label_conflicts": 0,
+    "theoretical_random_accuracy": 0.1,
+    "simulated_random_accuracy": 0.0989,
+    "majority_baseline_accuracy": 0.1
+}

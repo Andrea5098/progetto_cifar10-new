@@ -1,0 +1,11 @@
+class_id,class_name,class_name_it,training_count,validation_count,test_count,total_count,training_percentage,validation_percentage,test_percentage
+0,airplane,aeroplano,4500,500,1000,6000,10.0,10.0,10.0
+1,automobile,automobile,4500,500,1000,6000,10.0,10.0,10.0
+2,bird,uccello,4500,500,1000,6000,10.0,10.0,10.0
+3,cat,gatto,4500,500,1000,6000,10.0,10.0,10.0
+4,deer,cervo,4500,500,1000,6000,10.0,10.0,10.0
+5,dog,cane,4500,500,1000,6000,10.0,10.0,10.0
+6,frog,rana,4500,500,1000,6000,10.0,10.0,10.0
+7,horse,cavallo,4500,500,1000,6000,10.0,10.0,10.0
+8,ship,nave,4500,500,1000,6000,10.0,10.0,10.0
+9,truck,camion,4500,500,1000,6000,10.0,10.0,10.0

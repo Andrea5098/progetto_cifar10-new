@@ -1,0 +1,36 @@
+Model: "mlp_baseline"
+┏━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┳━━━━━━━━━━━━━━━━━━━━━━━━┳━━━━━━━━━━━━━━━┓
+┃ Layer (type)                    ┃ Output Shape           ┃       Param # ┃
+┡━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━╇━━━━━━━━━━━━━━━━━━━━━━━━╇━━━━━━━━━━━━━━━┩
+│ flatten (Flatten)               │ (None, 3072)           │             0 │
+├─────────────────────────────────┼────────────────────────┼───────────────┤
+│ dense_512 (Dense)               │ (None, 512)            │     1,573,376 │
+├─────────────────────────────────┼────────────────────────┼───────────────┤
+│ dropout_30_first (Dropout)      │ (None, 512)            │             0 │
+├─────────────────────────────────┼────────────────────────┼───────────────┤
+│ dense_256 (Dense)               │ (None, 256)            │       131,328 │
+├─────────────────────────────────┼────────────────────────┼───────────────┤
+│ dropout_30_second (Dropout)     │ (None, 256)            │             0 │
+├─────────────────────────────────┼────────────────────────┼───────────────┤
+│ output_softmax (Dense)          │ (None, 10)             │         2,570 │
+└─────────────────────────────────┴────────────────────────┴───────────────┘
+ Total params: 1,707,274 (6.51 MB)
+ Trainable params: 1,707,274 (6.51 MB)
+ Non-trainable params: 0 (0.00 B)
+
+
+CONFIGURAZIONE DI COMPILAZIONE
+=============================
+Optimizer: Adam
+Initial learning rate: 0.001
+Loss: SparseCategoricalCrossentropy
+Metric: SparseCategoricalAccuracy
+Maximum epochs: 50
+Batch size: 64
+Early stopping patience: 8
+Reduce LR patience: 3
+Reduce LR factor: 0.5
+Minimum learning rate: 1e-06
+Monitor: val_loss
+Data augmentation: False
+Test set used: False
